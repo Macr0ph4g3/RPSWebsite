@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'luminariregular';
+    src: url('luminari-regular-webfont.woff2') format('woff2'),
+         url('luminari-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    background-color: #FFEA00;
+    font-family: 'luminariregular'
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+.description {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    align-items: center;
+}
+
+.toolContainer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 200px 0px 200px;
+}
+
+.rock {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+.paper {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    }
+.scissors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.explanation {
+    display: flex;
+    justify-content: center;
+}
+
+.bottomBox {
+    display: flex;
+    justify-content: center;
+}
+
+.compDecision {
+    width: 264px;
+    height: 264px;
+}
+
+.infoBox {
+    display: flex;
+}
+.round {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:150px;
+}
+.lives {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hover {
+    transform:scale(1.1);
+    border-color:black;  
+    box-shadow: 0 0 1rem black;
+    border-radius: 25px;
+       
+}
+
+.displayRoundInformation {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.test {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    border: 3px solid #000;
+    border-radius: 25px;
+    perspective: 1px;
+}
